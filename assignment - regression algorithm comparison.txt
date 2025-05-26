@@ -1,0 +1,67 @@
+SLR - 0.974099340713511
+MLR - 0.935868097004641
+
+SVM
+C=100
+
+Linear - 0.10646819600577351
+rbf - -0.05072602278128757
+poly - -0.019802139315272305
+sigmoid - -0.03045351486430925
+
+C=1000
+
+Linear - 0.7802839882154126
+rbf - 0.0067683444800727965
+poly - 0.26616370931646915
+sigmoid - 0.18506861974160804
+
+C=3000
+
+Linear - 0.8956744694334916
+rbf - 0.12322756620227582
+poly - 0.6370064223754034
+sigmoid - 0.5913630209426106
+
+
+C=5000
+
+Linear - 0.9003762428272556
+rbf - 0.21242839387240475
+poly - 0.7936555436888323
+sigmoid - 0.7306562635755443
+
+Decision tree
+
+1. criterion='squared_error', 
+
+splitter='best'
+r= 0.9060304019988985
+
+splitter='random'
+r=0.9139039444129444
+
+2. criterion='friedman_mse', 
+
+splitter='best'
+r= 0.9238503420153721
+
+splitter='random'
+r=0.7558166643106509
+
+3. criterion='absolute_error', 
+
+splitter='best'
+r= 0.9680250580375771
+
+splitter='random'
+r=0.8507393216787956
+
+4. criterion='poisson', 
+
+splitter='best'
+r= 0.9316768363913597
+
+splitter='random'
+r=0.9357295168402393
+
